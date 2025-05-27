@@ -57,6 +57,9 @@ export const About = () => {
                  <li>
                     Relevant Coursework: Data Structures & Algorithms, Web Development, Database Management...
                  </li>
+                 <li>
+                    Secondary and Senior Secondary Education from Sherwood College, Nainital (2012-2022)
+                 </li>
                 </ul>
                 </div>
 
@@ -64,7 +67,7 @@ export const About = () => {
                 <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
                 <div className="list-disc list-inside text-gray-300 space-y-2 ">
                  <div>
-                    <h4>Software Engineering Intern at WayInfotech Solutions</h4>
+                    <h4>Software Engineering Intern at <strong> WayInfotech Solutions </strong></h4>
                     <p>
                         Assisted in building front-end components for web applications using React and Tailwind CSS and integration of APIs
                     </p>

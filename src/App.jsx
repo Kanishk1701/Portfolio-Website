@@ -6,6 +6,7 @@ import "./index.css";
 import "./app.css";
 import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
+import { Contact } from "./components/sections/Contact";
 export default function App() {
   // State to track if loading is complete
   const [isLoading, setIsLoading] = useState(true);
@@ -27,14 +28,8 @@ export default function App() {
           <Home />
           <About />
           <Projects />
+          <Contact />
            <main className="pt-16">
-            {/* Your other page sections go here */}
-            
-            
-            
-            <section id="contact" className="min-h-screen flex items-center justify-center">
-              <h1 className="text-4xl font-bold">Contact Section</h1>
-            </section>
           </main>
         </div>
       )}

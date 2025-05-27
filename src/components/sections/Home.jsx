@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import profileImage from '../../assets/Kanishk_Photo.jpg';
+import { RevealOnScroll } from '../RevealOnScroll';
 
 export const Home = () => {
     const [imageLoaded, setImageLoaded] = useState(false);
@@ -10,6 +11,8 @@ export const Home = () => {
 
     return (
         <section id="home" className="min-h-screen flex flex-col md:flex-row items-center justify-between relative overflow-hidden bg-black text-white">
+
+           
             {/* Left Column: Text */}
             <div className="w-full md:w-1/2 px-8 py-16 z-20 max-w-2xl relative">
                 <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent mb-6">
@@ -46,6 +49,7 @@ export const Home = () => {
                 {/* Gradient overlay to blend into text section */}
                 <div className="absolute inset-0 bg-gradient-to-l from-black/60 via-black/10 to-transparent z-10" />
             </div>
+           
         </section>
     );
 };
