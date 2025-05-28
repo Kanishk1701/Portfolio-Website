@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import profileImage from '../../assets/Kanishk_Photo.jpg';
+import profileImage from '../../assets/Kanishk_Photo.JPG';
 import { RevealOnScroll } from '../RevealOnScroll';
 
 export const Home = () => {
